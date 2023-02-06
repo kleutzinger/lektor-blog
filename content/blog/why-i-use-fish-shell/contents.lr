@@ -25,7 +25,7 @@ fish_update_completions
 Many people who are fed up with bash switch to zsh. To me, zsh is just a band-aid still stuck in the confines known as [POSIX-compliance](https://kb.hlrs.de/platforms/index.php/POSIX_compliant_shell_scripting). Some people stick with zsh over fish because they *need* access to the `ctrl+r` functionality of zsh, also known as `history-incremental-search-backward`. Many recommend using the up-arrow key to search backwards through history, but it's not quite as powerful as the zsh ctrl+r. You can't add on to the typing of it generally or see
 Fish has this as a plugin! It's got some other goodies, too. Grab it here: [fzf fish plugin](https://github.com/jethrokuan/fzf). Install With [fisher](https://github.com/jorgebucaran/fisher). You'll probably want to set the environment variable `set -U FZF_LEGACY_KEYBINDINGS 0` in your config.fish to get these newer nicer keybinds. More info in the [readme](https://github.com/jethrokuan/fzf#quickstart) on github.
 
-```
+```text
 Keybindings     | Description                                     |
 --------------- | ----------------------------------------------- |
 Ctrl-o          | Find a file.                                    |

@@ -5,7 +5,7 @@ body:
 Here's a list of popular bands from wikipedia based on pageviews in the last 500 days.
 The columns are
 band_name, page_views, band_location
-```
+```text
 Van Halen                 3678352 Los Angeles
 Metallica                 3578022 San Francisco
 Red Hot Chili Peppers     3519678 Los Angeles

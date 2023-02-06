@@ -1,0 +1,23 @@
+title: Sharing Files Between your Own Devices
+---
+author: Kevin Leutzinger
+---
+pub_date: 2021-02-09
+---
+twitter_handle: KevbotSSBM
+---
+body:
+
+You're probably reading this on one of your multiple devices.
+
+I've noticed that Firefox and Chrome browsers on my phone and laptop allowed you to send a webpage's url to each other. So when you're browsing a webpage on your phone, you can send it to your laptop, and it will automatically open a new tab. This is only possible if you are signed into a Firefox account or a Google account on both devices. Historically, I've solved this problem with [Pushbullet](https://www.pushbullet.com/) which allows you to use your phone's share button to send links, text, or files between a phone and a desktop's web browser via a plugin. It's a convinient service, also offering phone notification mirroring to your phone. Again, you must be logged into a pushbullet account on both devices.
+
+If my phone and laptop are sitting next to each other on the table, why is it so difficult to get files between them? Lets look at some options:
+
+Cloud Services (Google Drive, Dropbox):  
+* yearh
+* yeah two
+
+Usb Cable
+---
+_discoverable: no

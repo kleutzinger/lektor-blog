@@ -1,0 +1,18 @@
+[project]
+name = Kevin's Blog
+url = https://kevbot.xyz
+
+[alternatives.en]
+name = English
+primary = yes
+locale = en_US
+
+[packages]
+lektor-markdown-highlighter = 0.1
+lektor-index-pages = 1.0.0
+
+[servers.production]
+name = Production
+enabled = yes
+default = yes
+target = rsync://root@kevbot.xyz:/home/kevin/pushed/lektor?delete

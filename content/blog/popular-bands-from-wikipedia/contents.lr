@@ -1,0 +1,65 @@
+title: Popular Bands From Wikipedia
+---
+body:
+
+Here's a list of popular bands from wikipedia based on pageviews in the last 500 days.
+The columns are
+band_name, page_views, band_location
+```
+Van Halen                 3678352 Los Angeles
+Metallica                 3578022 San Francisco
+Red Hot Chili Peppers     3519678 Los Angeles
+Eagles (band)             3216278 Los Angeles
+Beastie Boys              3038412 New York City
+Wu-Tang Clan              2910395 New York City
+R.E.M.                    2762807 Athens, Georgia
+Lynyrd Skynyrd            2682106 Jacksonville, Florida
+Foo Fighters              2648808 Seattle
+Backstreet Boys           2641526 Orlando, Florida
+Mötley Crüe               2479646 Los Angeles
+Guns N' Roses             2468870 Los Angeles
+Green Day                 2442694 Berkeley, California
+Rage Against the Machine  2319905 Los Angeles
+Pearl Jam                 2301367 Seattle
+Talking Heads             2283065 New York City
+Kiss (band)               2249243 New York City
+Blink-182                 2164807 San Diego
+Grateful Dead             2093998 San Francisco
+N.W.A                     2041392 Los Angeles
+ZZ Top                    2031063 Houston
+The Pussycat Dolls        2013956 Los Angeles
+System of a Down          1910150 Los Angeles
+Simon & Garfunkel         1906716 New York City
+The Smashing Pumpkins     1846394 Chicago
+Chloe x Halle             1827581 Atlanta
+Aerosmith                 1819782 Boston
+Destiny's Child           1773846 Houston
+Alice in Chains           1737124 Seattle
+Journey (band)            1716873 San Francisco
+New Kids on the Block     1689526 Boston
+Ramones                   1684684 New York City
+Tool (band)               1672275 Los Angeles
+The Doors                 1660277 Los Angeles
+The Killers               1640228 Las Vegas
+The Strokes               1587307 New York City
+Haim (band)               1539943 Los Angeles
+Fifth Harmony             1539325 Miami
+NSYNC                     1538991 Orlando, Florida
+Heart (band)              1536555 Seattle
+The Temptations           1535653 Detroit
+Evanescence               1534125 Little Rock, Arkansas
+Black Eyed Peas           1468883 Los Angeles
+Village People            1456982 New York City
+Nine Inch Nails           1441549 Cleveland
+Boyz II Men               1436106 Philadelphia
+Toto (band)               1428697 Los Angeles
+The Monkees               1424911 Los Angeles
+The Clark Sisters         1418848 Detroit
+Weezer                    1412776 Los Angeles```
+https://gist.github.com/kleutzinger/321ab4006bace300dd0b8eb79580741e
+
+<script src="https://gist.github.com/kleutzinger/321ab4006bace300dd0b8eb79580741e.js"></script>
+---
+pub_date: 2021-04-14
+---
+twitter_handle: KevbotSSBM

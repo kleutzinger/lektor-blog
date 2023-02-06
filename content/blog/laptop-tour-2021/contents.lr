@@ -1,0 +1,20 @@
+title: Laptop Tour 2021
+---
+body:
+
+<iframe width="100%" height="500px" src="https://www.youtube.com/embed/v1h6bt0SlnQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+I'm in a hotel in Phoenix. Here's some cool stuff on my laptop. I'm using an Arch based distro called EndeavourOS with KDE. Laptop is T460s. Haircut is buzzcut.
+
+here's my [dotfiles](https://github.com/kleutzinger/dotfiles)
+
+here's [my installed pacman packages](
+https://gist.github.com/kleutzinger/d9e9649546f33346a8b903a8556b8616/4824f20ef6a70e0f75fcfb88982b39901824a249) at the time of recording
+---
+pub_date: 2021-02-24
+---
+twitter_handle: KevbotSSBM
+---
+author: Kevin Leutzinger
+---
+_discoverable: yes

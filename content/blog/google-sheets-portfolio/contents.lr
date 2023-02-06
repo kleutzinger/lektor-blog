@@ -1,0 +1,33 @@
+title: Using Google Sheets as a Portfolio Generator
+---
+_discoverable: no
+---
+_hidden: no
+---
+body:
+
+[source code](https://github.com/kleutzinger/kleutzinger.github.io/tree/master/site-generator)  
+[see portfolio here](https://kevinleutzinger.com)  
+[gsheets](https://github.com/xflr6/gsheets)  
+![example](https://i.imgur.com/3YnYXQc.png)  
+
+## The Problem
+
+I don't love editing markdown files all the time for small changes. It's okay for blog posts, perhaps, becuase each blog's content is independent from other blog posts. With something like a portfolio, however, there is a lot of shared data and small changes to be made constantly. And, the other difficulty with having my content inside markdown is that the data is somewhat locked into those files or into whatever static site generator format I am using to generate them. Not very re-usable. I was thinking about using json (like resume.json), but that has other issues (not extensible, annoying to edit, where is it hosted?)
+
+## The Solution
+
+Putting all my data into a spreadsheet has made things much easier. The data is contained inside custom fields __PICTURE OF FIELDS__. This means I can incrementally fill in the data for a given project and easily update or change it later. I can also use this data for other platforms. Also I can edit it from other platforms
+  
+## Generating HTML
+
+I'm using a nice Python library [dominate](https://github.com/Knio/dominate) to help somewhat with generate the HTML, but most of the heavy lifting is actually done by Python 3's [template strings](https://docs.python.org/3/reference/lexical_analysis.html#f-strings).
+
+## Next Steps
+
+- have a deploy button on the spreadsheet itself?
+
+---
+pub_date: 2021-03-18
+---
+twitter_handle: KevbotSSBM

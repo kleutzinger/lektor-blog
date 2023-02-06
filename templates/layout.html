@@ -1,0 +1,61 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}">
+<link rel="stylesheet" href="{{ get_pygments_stylesheet()|url }}">
+<link rel="icon" href="{{ '/static/favicon.png'|asseturl }}">
+<title>kevbot.xyz — {% block title %}Welcome{% endblock %} </title>
+<body>
+  <header>
+    <a href="{{ site.root|url }}" style="text-decoration: none;">
+      <h2 alt="Kevbot" class="logo">Kevbot.xyz by Kevin Leutzinger</h2>
+    </a>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li{% if this._path == '/' %} class="active"{% endif
+          %}><a href="{{ '/'|url }}">Home</a></li>
+        {% for href, title in [
+          ['/blog', 'Blog'],
+          ['/about', 'About'],
+        ] %}
+          <li{% if this.is_child_of(href) %} class="active"{% endif
+            %}><a href="{{ href|url }}">{{ title }}</a></li>
+        {% endfor %}
+        <li><a href="https://kevinleutzinger.com">Portfolio</a></li>
+        <li><a href="https://github.com/kleutzinger">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/kevin-leutzinger-556758114/">Hire Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="page">
+    {% block body %}{% endblock %}
+  </div>
+  <footer>
+    <button onclick="myFunction()">Expert Mode</button>
+    <ul id="footer-nav" class="tree-nav" style="display: none;">
+      {% set root = site.get('/') %}
+      <li>
+        <a href="{{ root|url }}">{{ root.title }}</a>
+      </li>
+      {% for child in root.children recursive %}
+        <li>
+          <a href="{{ child|url }}">{{ child.path }}</a>
+        </li>
+        {% if child.children %}
+          <ul>{{ loop(child.children) }}</ul>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("footer-nav");
+      if (x.style.display === "none") {
+          x.style.display = "block";
+      } else {
+          x.style.display = "none";
+      }
+    }
+  </script>
+</body>

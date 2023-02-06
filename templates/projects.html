@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% from "macros/projects.html" import
+  render_project_list, render_category_nav %}
+{% block title %}Projects{% endblock %}
+{% block body %}
+  <a href="https://kevinleutzinger.com/projects">My Old Project Page</a>
+  {{ render_category_nav(active=none) }}
+  {{ render_project_list(this.children) }}
+{% endblock %}

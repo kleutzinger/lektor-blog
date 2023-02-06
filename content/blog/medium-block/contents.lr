@@ -1,0 +1,17 @@
+title: Block Annoying Medium.com Signup Requests and Popups
+---
+author: Kevin Leutzinger
+---
+twitter_handle: KevbotSSBM
+---
+body:
+
+Navigate to a Medium article and disable all cookies from medium.com and google.com. The reminder might stick around, but it will stay stuck on "2 Free Articles Left"
+<video id="vid" controls="yes" autoplay="yes" loop="yes">
+  <source type="video/webm" src="medium-block.webm"></source>
+  <p>Your browser does not support the video element.</p>
+</video>
+
+[article in video](https://medium.com/swlh/my-favorite-cli-tools-c2fa484cee52)
+---
+pub_date: 2021-01-09

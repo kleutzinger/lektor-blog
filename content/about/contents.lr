@@ -1,0 +1,16 @@
+title: About this Website
+---
+body:
+
+This website is built using [Lektor](https://www.getlektor.com/).
+It's a static site builder written in python. It has the functionality of a miniature, self-hosted content management system.
+You can add pages, add subpages, upload attatchments, and edit the markdown from a nice, local web interface.
+Then, to deploy, you just hit a button which builds the static content and runs an rsync command out to your server.
+<br>
+<br>
+![admin interface](./admin-interface.png)
+<style>
+img{
+    width: 70%; margin: auto; display: block; padding-top 30px;
+    }
+</style>

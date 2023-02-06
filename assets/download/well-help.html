@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+        
+    </head>
+    <body class="vscode-light">
+        <p><img src="https://i.imgur.com/gME6fcF.png" alt="image">
+<img src="https://i.imgur.com/eoQSdyU.png" alt="image"></p>
+<style>
+img {width: 600px}
+</style>
+<p>Ask Kevin Leutzinger or Aaron Santiago about any problems you have!
+We made all this. Have Fun!</p>
+<p>FAQ:</p>
+<p>Included systems (<em>complete game libraries</em>)</p>
+<ul>
+<li>About 30,000 official games so far from:
+<ul>
+<li>Nintendo NES/SNES/N64/Gamecube</li>
+<li>Nintendo Handhelds (GB/GBC/GBA), DS</li>
+<li>Sony Playstation 1, PSP</li>
+<li>Sega Dreamcast/Genesis/Mastersystem/Gamegear/32x</li>
+<li>Wonderswan (ever heard of it?)</li>
+<li>More to come...</li>
+<li>Romhacks and translations too!</li>
+</ul>
+</li>
+</ul>
+<p>How do I use this?</p>
+<ul>
+<li>You'll need windows and an xbox/ps4 controller.</li>
+<li>There's a lot of games, but searching is powerful</li>
+<li>A game is ready to play once there is a controller icon to the left of the title</li>
+<li>Start by typing to find a game
+<ul>
+<li>try searching:
+<ul>
+<li>romhack</li>
+<li>ps1</li>
+<li>gba mario</li>
+<li>super smash bros</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Controller (playstation notation):
+<ul>
+<li>navigation is all with dpad
+<ul>
+<li>This means dpad left is back (rather than O or B)</li>
+</ul>
+</li>
+<li>L1 R1: skip down list by first letter
+<ul>
+<li>this might glitch out</li>
+</ul>
+</li>
+<li>X/O to launch game or activate an item</li>
+<li>Triangle to open menu on a rom</li>
+<li>Click right stick to go to a random game</li>
+</ul>
+</li>
+<li>Keyboard/Mouse
+<ul>
+<li>you can type to search</li>
+<li>left click to download/launch</li>
+<li>right click on a game for more options</li>
+</ul>
+</li>
+<li>In-Game controls:
+<ul>
+<li><a href="https://docs.libretro.com/guides/input-and-controls/">https://docs.libretro.com/guides/input-and-controls/</a></li>
+<li>Keyboard hotkeys:
+<ul>
+<li>f2 f4: save, load state</li>
+<li>f1: open retroarch menu</li>
+<li>spacebar: fast forward</li>
+</ul>
+</li>
+<li>double tap center button to quit</li>
+<li>Press F1 to open retroarch menu
+<ul>
+<li>'Quick Menu' has most options you need</li>
+<li>Retroarch is a confusing place, but ask google anything you don't understand</li>
+</ul>
+</li>
+<li>Google &quot;retroarch tutorial&quot; for help on anything else
+<ul>
+<li>we preconfigured it to make things easier</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Features</p>
+<ul>
+<li>tag games and make playlists (press triangle on a game)</li>
+<li>press X on a game to download</li>
+<li>once download is complete, press again to launch</li>
+<li>Search:
+<ul>
+<li>You filter games by clicking/selecting any tags on the right</li>
+<li>Or search any tag or game title</li>
+</ul>
+</li>
+</ul>
+<p>What is a rom?</p>
+<ul>
+<li>A ROM is a dump/rip of a game disc or game cartridge</li>
+<li>They can be stored on a computer and launched by an emulator</li>
+</ul>
+<p>How does this thing work?</p>
+<ul>
+<li>We bundled together Retroarch and a pre-scraped and tagged list of ROM direct download links</li>
+<li>it is built using
+<ul>
+<li>Backend: <a href="https://www.python.org/downloads/">Python</a></li>
+<li>Frontend: <a href="https://github.com/samuelhwilliams/Eel">Eel</a></li>
+<li>Emulators: <a href="https://www.retroarch.com/">Retroarch</a> / <a href="https://www.libretro.com/">Libretro</a></li>
+</ul>
+</li>
+</ul>
+<p>Where are the games stored?</p>
+<ul>
+<li>In the ROMs Folder, try not to rename or move them</li>
+<li>(you are not currently able to add ROMs in there manually, but there's plenty for you to download already)</li>
+</ul>
+<p>How do I save?</p>
+<ul>
+<li>You can save as you would in game or use
+<ul>
+<li>F2 key to save a state</li>
+<li>F4 key to load state</li>
+</ul>
+</li>
+</ul>
+<p>My game won't start!</p>
+<ul>
+<li>You can go into retroarch settings in game (f1) and change video drivers
+<ul>
+<li>try switching between vulkan or gl/glcore</li>
+</ul>
+</li>
+<li>Some roms do not play nicely with emulators:
+<ul>
+<li>Dreamcast and DS games can be troublesome</li>
+</ul>
+</li>
+</ul>
+<p>Retroarch Menus Explained:</p>
+<ul>
+<li>Quick menu is where you change options for the current system/game
+<ul>
+<li>You open the quick menu by pressing F1 ingame</li>
+<li>if you go to Controls you can change how your controller is mapped for that system</li>
+<li>we set up defaults as best we could</li>
+<li>Quick menu also lets you load/save states and close/restart content</li>
+<li>The quick menu only exists while you are running a game</li>
+</ul>
+</li>
+<li>The Main menu is separate and you get to it by right clicking while in the quick menu or pressing back on your controller
+<ul>
+<li>you can change video drivers under Settings&gt;Drivers&gt;Video</li>
+<li>you will have to restart retroarch when you set a new video driver</li>
+</ul>
+</li>
+</ul>
+<p>Where do the games come from?</p>
+<ul>
+<li><a href="https://archive.org/details/no-intro-rom-sets">https://archive.org/details/no-intro-rom-sets</a></li>
+<li>And other sets found there, we did not upload all of these games ourselves</li>
+</ul>
+<p>A game is missing from the list!</p>
+<ul>
+<li>we did the best we could</li>
+</ul>
+<p>Is this legal?</p>
+<ul>
+<li>We are not distributing any games, just listing and organizing links to them.</li>
+<li>Most games are from pre-2005 so they are not commercially viable</li>
+</ul>
+<p><a href="eel_server.exe">hotfix download eel_server.exe</a></p>
+
+    </body>
+    </html>

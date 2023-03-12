@@ -7,6 +7,9 @@ It's a static site builder written in python. It has the functionality of a mini
 You can add pages, add subpages, upload attatchments, and edit the markdown from a nice, local web interface.
 Then, to deploy, you just hit a button which builds the static content and runs an rsync command out to your server.
 <br>
+This site is now deployed by a github action!
+<br>
+https://github.com/kleutzinger/lektor-blog/actions/workflows/deploy-lektor.yml
 <br>
 <img src='/static/admin-interface.png'></img>
 <style>

@@ -1,0 +1,62 @@
+title: Streaming a Super Smash Bros. Melee Tournament on a Steam Deck
+---
+pub_date: 2023-05-07
+---
+twitter_handle: KevbotSSBM
+---
+body:
+
+- [Link to the gameplay stream (youtube)](https://youtu.be/gWwsjefpa6k?t=3134)
+- [Link to the bracket (start.gg)](https://www.start.gg/tournament/norcal-arcadian-7/details)
+- <video autoplay controls muted loop src="./melee-stream.webm" style="max-width: 80%;max-height: 80%;"></video>
+  - How [the stream](https://youtu.be/gWwsjefpa6k?t=3134) looked like while broadcasting, running at 720p60.
+
+## Overall Context
+
+This past Saturday in San Jose, California, there was [a large in-person tournament](https://www.start.gg/tournament/norcal-arcadian-7/details) for Super Smash Brothers Melee. Over 150 players duked it out in a double elimination bracket over the course of about 6 hours, with one player crowned as the champion. The game in question is a 1 on 1 fighting game played on a console (GameCube) released in 2001. Because the game and console are over two decades old, there is only support for analog video output to connect the console to the TV*. Streaming analog signals via a capture card a bit difficult — generally, modern capture cards only support digital inputs like HDMI. We have workarounds, however, which I will outline in this blog post.
+
+- <img src="./pxl-20230506-235320241-1.jpg" style="max-width: 80%;max-height: 80%;"></img>
+  - The hardware used to play the game. Notice that we use big old CRT TVs. The steam deck is in the bottom left, which I use for my stream.
+
+
+## What is a Steam Deck?
+
+Released on February 2022 The Steam Deck is a handheld gaming computer developed by Valve. It has a builtin controller and is great for playing PC games. Launching the device in "Desktop Mode" makes it behave as a small-footprint Arch Linux laptop. I use it here in lieu of a laptop because it is easier to squeeze onto a crowded table. And it looks cool.
+
+## How the stream worked
+
+Here is the full list of parts:
+- [Steam Deck (256GB Model)](https://store.steampowered.com/steamdeck)
+- [JSAux Steam Deck Dock](https://jsaux.com/products/upgraded-docking-station-for-steam-deck)
+- [AverMedia BU110 Capture Card](https://www.avermedia.com/it/product-detail/BU110)
+- [AverMedia Composite to HDMI Converter](https://www.amazon.com/dp/B00TQ43WI8?th=1)
+- [Logitech C270 HD Webcam](https://www.amazon.com/dp/B004FHO5Y6?th=1)
+- [Unpowered composite y-splitter](https://www.amazon.com/dp/B01CT6CBE0?th=1)
+- [A third party USB-C/A charger](https://www.amazon.com/dp/B07PZSXL9J?th=1)
+
+A summary of how I connect all these parts:
+
+From the GameCube, I split the video out in two using the y-splitter. One feeds directly into the TV, the other feeds into the composite to HDMI  powered converter. I then feed the HDMI signal into my AverMedia capture card. I connect the capture card to my Steam Deck which, and boom I have a stream. For audio, I used the Steam Deck's built in microphone to capture both the audio in the room and in turn, the TV. I find capturing the room audio to provide good atmosphere to the live stream. I also used a webcam to capture the players as they played.
+
+The Steam deck is seated into a usb-c dock. This gives me three usb-A ports, which I use to plug in the capture card, the webcam, and a microphone (optional). I powered the composite to HDMI converter via the extra usb cable on my Steam Deck charger.
+
+Using [Open Broadcaster Software (OBS)](https://obsproject.com/), I both live streamed to my [youtube channel](https://www.youtube.com/channel/UCANztgzBKoVk1WnoVKz4UPg/) and locally recorded a [VOD](https://youtu.be/gWwsjefpa6k) to the Steam Deck simultaneosly. The venue didn't have perfect wifi, so my local recording reupload has a more consistent framerate than the original live stream.
+
+
+## Conclusion
+
+Competitors in Melee commit their mind, body, and soul into every tournament set they play. A heart may be broken or a competitive fire lit. Always, a story line is created. I am here to capture these moments.
+
+
+## Tidbits
+
+- I found that this capture card works quite well with the Steam Deck when others don't. It just worked out of the box, while many others only support Windows.
+- For next time to improve the stream, I want to use two webcams at once. Sometimes I could only see one player.
+- If you know about [interlaced video](https://en.wikipedia.org/wiki/Interlaced_video?useskin=vector), you'll recognize that a composite cable generally outputs a 480i signal to a TV. However, it seems that running the signal through an HDMI converter allows the capture card to ingest a full 480p frame (at 60 FPS, no less). This is great and makes the stream looks awesomely smooth. This is accomplished without any interpolation or upscaling. I suppose this means that somehow the full frame is output by a composite cable 60 times a second. It is a funny thought that my recording is actually arguably higher fidelity than the TV itself (the TV is displaying at 480i).
+- I didn't update the stream overlay at all during the tournament (usually video overalays have info like player names, or the current round). I just set it up and let it run (for over 9.5 hours!).
+- I've made many different streaming / local recording setups for tournaments before and I've made a spreadsheet comparing the advantadges / disadvantages of each as both a competitor and a streamer. [See spreadsheet here](https://docs.google.com/spreadsheets/d/1lO34rbQRMNVSH4PJ--4WnE0ROm5mhqv30bUi1Sh6grQ/edit?usp=sharing)
+- My stream was not the main stream, but rather a side stream. The main stream was [here on twitch](https://www.twitch.tv/guildhouse). I streamed to [my youtube channel](https://www.youtube.com/channel/UCANztgzBKoVk1WnoVKz4UPg/) rather than [my personal twitch](https://www.twitch.tv/kevbotssbm).
+- [Slippi Console Mirroring](https://docs.google.com/document/d/1ezavBjqVGbVO8aqSa5EHfq7ZflrTCvezRYjOf51MOWg/edit) is another cool way to get a melee stream going. I haven't tried this yet with a Steam Deck, and instead opted for the capture card route.
+- \* Technically some models of GameCubes support digital video output. Read more [here](https://www.retrorgb.com/gamecubeoutput.html). I have never seen these in use at a tournament because most TVs don't support it as an input.
+---
+_discoverable: yes

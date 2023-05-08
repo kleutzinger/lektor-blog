@@ -8,14 +8,13 @@ body:
 
 - [Link to the gameplay stream (youtube)](https://youtu.be/gWwsjefpa6k?t=3134)
 - [Link to the bracket (start.gg)](https://www.start.gg/tournament/norcal-arcadian-7/details)
-- <video autoplay controls muted loop src="./melee-stream.webm" style="max-width: 80%;max-height: 80%;"></video>
-  - How [the stream](https://youtu.be/gWwsjefpa6k?t=3134) looked like while broadcasting, running at 720p60.
+- <video autoplay controls muted loop src="./melee-stream.webm" ></video> How [the stream](https://youtu.be/gWwsjefpa6k?t=3134) looked like while broadcasting, running at 720p60.
 
 ## Overall Context
 
 This past Saturday in San Jose, California, there was [a large in-person tournament](https://www.start.gg/tournament/norcal-arcadian-7/details) for Super Smash Brothers Melee. Over 150 players duked it out in a double elimination bracket over the course of about 6 hours, with one player crowned as the champion. The game in question is a 1 on 1 fighting game played on a console (GameCube) released in 2001. Because the game and console are over two decades old, there is only support for analog video output to connect the console to the TV*. Streaming analog signals via a capture card a bit difficult — generally, modern capture cards only support digital inputs like HDMI. We have workarounds, however, which I will outline in this blog post.
 
-- <img src="./pxl-20230506-235320241-1.jpg" style="max-width: 80%;max-height: 80%;"></img>
+- <img src="./pxl-20230506-235320241-1.jpg"></img>
   - The hardware used to play the game. Notice that we use big old CRT TVs. The steam deck is in the bottom left, which I use for my stream.
 
 
@@ -58,5 +57,7 @@ Competitors in melee put their entire selves into every tournament set they play
 - [Slippi Console Mirroring](https://docs.google.com/document/d/1ezavBjqVGbVO8aqSa5EHfq7ZflrTCvezRYjOf51MOWg/edit) is another cool way to get a melee stream going. I haven't tried this yet with a Steam Deck, and instead opted for the capture card route.
 - I am also a player myself known as [Kevbot](https://liquipedia.net/smash/Kevbot)
 - \* Technically some models of GameCubes support digital video output. Read more [here](https://www.retrorgb.com/gamecubeoutput.html). I have never seen these in use at a tournament because most TVs don't support it as an input.
+
+<img src="./obs-on-deck.jpg"></img>
 ---
 _discoverable: yes

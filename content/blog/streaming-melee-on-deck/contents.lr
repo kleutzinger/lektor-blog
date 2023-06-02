@@ -12,7 +12,7 @@ body:
 
 ## Overall Context
 
-This past Saturday in San Jose, California, there was [a large in-person tournament](https://www.start.gg/tournament/norcal-arcadian-7/details) for Super Smash Brothers Melee. Over 150 players duked it out in a double elimination bracket over the course of about 6 hours, with one player crowned as the champion. The game in question is a 1 on 1 fighting game played on a console (GameCube) released in 2001. Because the game and console are over two decades old, there is only support for analog video output to connect the console to the TV*. Streaming analog signals via a capture card a bit difficult — generally, modern capture cards only support digital inputs like HDMI. We have workarounds, however, which I will outline in this blog post.
+This past Saturday in San Jose, California, there was [a large in-person tournament](https://www.start.gg/tournament/norcal-arcadian-7/details) for Super Smash Brothers Melee. Over 150 players duked it out in a double elimination bracket over the course of about 6 hours, with one player crowned as the champion. The game in question is a 1 on 1 fighting game played on a console (GameCube) released in 2001. Because the game and console are over two decades old, there is only support for analog video output to connect the console to the TV*. Modern capture cards generally only support digital inputs (like HDMI), this makes streaming analog devices, such as older consoles, more difficult. We have workarounds, however, which I will outline in this blog post.
 
 
 - <img src="./pxl-20230506-235320241-1.jpg"></img>

@@ -4,7 +4,7 @@ body:
 
 I made some silly AI vocal covers. I originally saw it in [this youtube video](https://youtu.be/DP9EY4xMlTE) of Mr Krabs covering Billie Jean. Listen to understand what I mean. It sounds like Mr Krabs singing exactly in the style of Michael Jackson.
 
-To make my own AI covers, I followed the tutorial in the description of the above video. You have to track down your desired song's vocal-only track (a.k.a. isolated vocals). You can often find these on youtube for most popular songs. Using google colab, you then have to choose a voice model to "replace" the vocals (Mr Krabs in this case). After processing (takes a few minutes), you now have a new vocal track sounding like your selected model. You then have to find an instrumental of the song and align it with your output. The hardest part was beat-matching the AI vocal track to the instrumental.
+To make my own AI covers, I followed [the tutorial](https://www.youtube.com/watch?v=jQBQfJqacLA) in the description of the above video. You have to track down your desired song's vocal-only track (a.k.a. isolated vocals). You can often find these on youtube for most popular songs. Using google colab, you then have to choose a voice model to "replace" the vocals (Mr Krabs in this case). After processing (takes a few minutes), you now have a new vocal track sounding like your selected model. You then have to find an instrumental of the song and align it with your output. The hardest part was beat-matching the AI vocal track to the instrumental.
 
 Here's a playlist of the AI songs I created.
 

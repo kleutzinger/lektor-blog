@@ -1,0 +1,23 @@
+title: Making AI Vocal Covers
+---
+body:
+
+I made some silly AI vocal covers. I originally saw it in [this youtube video](https://youtu.be/DP9EY4xMlTE) of Mr Krabs covering Billie Jean. Listen to understand what I mean. It sounds like Mr Krabs singing exactly in the style of Michael Jackson.
+
+To make my own AI covers, I followed the tutorial in the description of the above video. You have to track down your desired song's vocal-only track (a.k.a. isolated vocals). You can often find these on youtube for most popular songs. Using google colab, you then have to choose a voice model to "replace" the vocals (Mr Krabs in this case). After processing (takes a few minutes), you now have a new vocal track sounding like your selected model. You then have to find an instrumental of the song and align it with your output. The hardest part was beat-matching the AI vocal track to the instrumental.
+
+Here's a playlist of the AI songs I created.
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1650616318&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kevin-leutzinger" title="Kevin Leutzinger" target="_blank" style="color: #cccccc; text-decoration: none;">Kevin Leutzinger</a> · <a href="https://soundcloud.com/kevin-leutzinger/sets/ai-vocal-covers" title="AI Vocal Covers" target="_blank" style="color: #cccccc; text-decoration: none;">AI Vocal Covers</a></div>
+
+The cool thing is that I did this all for free on [google colab](https://colab.research.google.com/). Each track took a few minutes of cloud processing. I consider this quite fast, really. Also, you don't _have_ to use Mr Krabs, there are many, many other models (on discord). I didn't make any of these, other people did.
+
+Some of the thousands of voice models on discord.
+
+<img src="2023-07-11-23-57.png"></img>
+
+It looks like this when you are creating the AI vocal tracks. This is running on the cloud via colab.
+
+<img src="2023-07-12-00-00.png "></img>
+---
+pub_date: 2023-07-12

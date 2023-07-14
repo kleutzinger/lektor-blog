@@ -1,0 +1,14 @@
+title: Adding an Atom Feed to This Blog
+---
+body:
+
+Atom feeds are like RSS feeds: both subscribe and display new content from specific websites "live". To add my blog to your reader, add <a href="/feed.xml">this link (/feed.xml)</a> to your feed-reading program. Most RSS readers also support the atom standard. You will now be notified of all my new blog posts.
+
+I got this working on my site via the simple plugin here: https://github.com/lektor/lektor-atom.
+
+Here's an example of how my feed may look in your reader. You even get a summary of the content and a direct link.
+<img src="2023-07-14-16-01.png"></img>
+---
+pub_date: 2023-07-14
+---
+twitter_handle: KevbotSSBM

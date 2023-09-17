@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "dokku": {
+            "predeploy": "cd /app/www/ && wget -O content/contents.lr https://raw.githubusercontent.com/kleutzinger/kleutzinger.github.io/master/site-generator/generated/kevbot.xyz.contents.lr && python -m lektor build -O dist"
+        }
+    }
+}

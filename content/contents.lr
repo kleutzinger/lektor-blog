@@ -5,6 +5,7 @@ body:
 ## [back to my visual portfolio here](https://kevinleutzinger.com)
 |date_created|title/link|source code|screenshot_url|
 |---|---|---|---|
+|2023-09-30|[Workout Tracker](https://tracker.kevbot.xyz/)|[source](https://github.com/kleutzinger/tracker.kevbot.xyz)|<a href="https://cdn.kevbot.xyz/file/kevbot-cdn/screenshots/workout-scrot.png"><img class=small_img src="https://cdn.kevbot.xyz/file/kevbot-cdn/screenshots/workout-scrot.png"></img></a>||
 |2023-06-20|[Norcal Melee Data Tracker](https://docs.google.com/spreadsheets/d/1-rj-k-gLWUize_fYmlGVH0zFkBLa14U6nMMonNEkraE/edit#gid=854185296)|[source](https://github.com/kleutzinger/norcal-ssbm-power-ranker-pgstats.com)|<a href="https://cdn.kevbot.xyz/file/kevbot-cdn/screenshots/NWkhULd.png"><img class=small_img src="https://cdn.kevbot.xyz/file/kevbot-cdn/screenshots/NWkhULd.png"></img></a>||
 |2023-06-03|[Steam Tags Popularity Game](https://steam-tags.kevbot.xyz/)|[source](https://github.com/kleutzinger/steam-tags)|<a href="https://cdn.kevbot.xyz/file/kevbot-cdn/screenshots/5jq3Hld.png"><img class=small_img src="https://cdn.kevbot.xyz/file/kevbot-cdn/screenshots/5jq3Hld.png"></img></a>||
 |2023-03-11|[Github Action Static Site Deployments](https://github.com/kleutzinger/kleutzinger.github.io/tree/master/site-generator)|[source](https://github.com/kleutzinger/kleutzinger.github.io/tree/master/site-generator)|<a href="https://cdn.kevbot.xyz/file/kevbot-cdn/screenshots/zsNOiR7.png"><img class=small_img src="https://cdn.kevbot.xyz/file/kevbot-cdn/screenshots/zsNOiR7.png"></img></a>||

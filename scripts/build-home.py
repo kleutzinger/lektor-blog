@@ -20,6 +20,10 @@ title: Kevin's Homepage
 ---
 body:
 ## [back to my visual portfolio here](https://kevinleutzinger.com)
+
+This is all the projects I've made in condensed view ordered by recency.  
+New stuff pops up at the top periodically.  
+
 MARKDOWN
 ---
 alt_note: alt note

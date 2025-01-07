@@ -10,6 +10,10 @@ import requests
 from io import StringIO
 import csv
 
+
+def alphanumeric_only(s: str) -> str:
+    return "".join([c for c in s if c.isalnum() or c in " .-,()"])
+
 # make dump generated file here
 # content dir is one directory up
 CONTENTS_LR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "content", "contents.lr")
@@ -60,7 +64,7 @@ def main():
     # get json from endpoint
     projects = get_projects()
     projects.sort(reverse=True, key=lambda x: x.get("date_created", "0"))
-    used_fields = ["date_created", "title/link", "source code", "screenshot_url"]
+    used_fields = ["date_created", "title/link", "info", "source code", "screenshot_url"]
     piped = "|".join(used_fields)
     headers = f"|{piped}|"
     spacer = f"|{'---|'*len(used_fields)}"
@@ -80,6 +84,8 @@ def main():
             full_star = "★"
             star_rating = project["star_rating"]
             project["stars"] = full_star * int(float(star_rating))
+        if "web_description" in project:
+            project["info"] = project["web_description"]
         title_link = title_link or "#"
         project["title/link"] = f"[{title}]({title_link})"
 
@@ -96,6 +102,12 @@ def main():
                     val = f'<a href="{val}"><img class=small_img src="{val}"></img></a>'
                 else:
                     val = f'<img class=small_img src="{IMAGE_404}">'
+            elif field == "info":
+                if val:
+                    # show a circled info i with alt text with the val
+                    val = f'<span class="info" title="{alphanumeric_only(val)}">🛈</span>'
+                else:
+                    val = ""
             piped += f"{val}|"
         vals = f"|{piped}|\n"
         output_string += vals
@@ -103,6 +115,7 @@ def main():
     markdown_output = TEMPLATE.replace("MARKDOWN", output_string)
     with open(CONTENTS_LR, "w") as f:
         f.write(markdown_output)
+    print(f"wrote to {len(markdown_output)} bytes to {CONTENTS_LR}")
 
 
 if __name__ == "__main__":

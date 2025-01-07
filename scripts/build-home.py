@@ -27,6 +27,7 @@ body:
 
 This is all the projects I've made in condensed view ordered by recency.  
 New stuff pops up at the top periodically.  
+Hover over an info icon for more details, click a screenshot for a better view.  
 
 MARKDOWN
 ---
@@ -64,8 +65,8 @@ def main():
     # get json from endpoint
     projects = get_projects()
     projects.sort(reverse=True, key=lambda x: x.get("date_created", "0"))
-    used_fields = ["date_created", "title/link", "info", "source code", "screenshot_url"]
-    piped = "|".join(used_fields)
+    used_fields = ["date_created", "title/link", "info","screenshot_url", "source code"]
+    piped = "|".join(["<!-- -->" for _ in used_fields])
     headers = f"|{piped}|"
     spacer = f"|{'---|'*len(used_fields)}"
     output_string = f"{headers}\n{spacer}\n"
@@ -76,7 +77,7 @@ def main():
         if "demo_url" in project:
             title_link = project["demo_url"]
         if "repo_url" in project:
-            project["source code"] = f"[source]({project['repo_url']})"
+            project["source code"] = f"[source_code]({project['repo_url']})"
             title_link = title_link or project["repo_url"]
         if "readme_url" in project:
             title_link = title_link or project["readme_url"]

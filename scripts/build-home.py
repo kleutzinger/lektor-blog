@@ -11,8 +11,9 @@ from io import StringIO
 import csv
 
 
-def alphanumeric_only(s: str) -> str:
-    return "".join([c for c in s if c.isalnum() or c in " .-,()"])
+def escaped_text(s: str) -> str:
+    from html import escape
+    return escape(s, quote=True)
 
 # make dump generated file here
 # content dir is one directory up
@@ -106,7 +107,7 @@ def main():
             elif field == "info":
                 if val:
                     # show a circled info i with alt text with the val
-                    val = f'<span class="info" title="{alphanumeric_only(val)}">🛈</span>'
+                    val = f'<span class="info" title="{escaped_text(val)}">🛈</span>'
                 else:
                     val = ""
             piped += f"{val}|"

@@ -4,11 +4,11 @@
 #
 #    pip-compile requirements.in
 #
-babel==2.16.0
+babel==2.17.0
     # via lektor
 blinker==1.9.0
     # via flask
-certifi==2024.12.14
+certifi==2025.1.31
     # via requests
 charset-normalizer==3.4.1
     # via requests
@@ -28,7 +28,7 @@ inifile==0.4.1
     # via lektor
 itsdangerous==2.2.0
     # via flask
-jinja2==3.1.5
+jinja2==3.1.6
     # via
     #   flask
     #   lektor
@@ -43,7 +43,7 @@ mistune==0.8.4
     # via lektor
 python-slugify==8.0.4
     # via lektor
-pytz==2024.2
+pytz==2025.2
     # via lektor
 requests==2.32.3
     # via
